@@ -9,7 +9,7 @@ describe("Letter class", () => {
     expect(new Letter("a").visible).toBe(false); 
   });
 
-  it("toString returns _ for letters", () => {
+  it("toString returns _ for letters or digits", () => {
     expect(new Letter("a").toString()).toBe("_");
   });
 
